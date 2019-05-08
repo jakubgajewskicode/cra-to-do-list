@@ -1,0 +1,13 @@
+{
+  "main.css": "/cra-to-do-list/static/css/main.7bf6a15b.chunk.css",
+  "main.js": "/cra-to-do-list/static/js/main.7b0bf761.chunk.js",
+  "main.js.map": "/cra-to-do-list/static/js/main.7b0bf761.chunk.js.map",
+  "runtime~main.js": "/cra-to-do-list/static/js/runtime~main.30e58439.js",
+  "runtime~main.js.map": "/cra-to-do-list/static/js/runtime~main.30e58439.js.map",
+  "static/js/2.a5adb38c.chunk.js": "/cra-to-do-list/static/js/2.a5adb38c.chunk.js",
+  "static/js/2.a5adb38c.chunk.js.map": "/cra-to-do-list/static/js/2.a5adb38c.chunk.js.map",
+  "index.html": "/cra-to-do-list/index.html",
+  "precache-manifest.e54a2cf821a841c5b47f33b4a61eed3a.js": "/cra-to-do-list/precache-manifest.e54a2cf821a841c5b47f33b4a61eed3a.js",
+  "service-worker.js": "/cra-to-do-list/service-worker.js",
+  "static/css/main.7bf6a15b.chunk.css.map": "/cra-to-do-list/static/css/main.7bf6a15b.chunk.css.map"
+}
