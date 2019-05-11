@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import AddTask from './AddTask'
 import TaskList from './TaskList'
-
+// 1. Utworzenie plikow importu i exportu w katalogach roboczych
 class App extends Component {
 
   counter = 4;
-
+// 2. Wprowadzenie przykładowych obiektow tablicy
   state = {
     tasks: [
     {id:0,
@@ -39,10 +39,11 @@ class App extends Component {
   },
     ]
   }
+
 deleteTask = (id) => {
   console.log("delete works"  + id);
 
-  // Metoda 1 ze find idexem i splicem
+  // Method 1 with findindex and splice
 
   // const tasks = [...this.state.tasks];
   // const index = tasks.findIndex(task => task.id ===id)
@@ -50,15 +51,25 @@ deleteTask = (id) => {
   // this.setState({
   //   tasks
   // })
+
+// Method 2
+  // 5. Making copy of the array and then looking for a element with certain id. 
+
+  // task.id !== id is returning new array without clicked id task
+  
+  // Then this.setState and we will get new array
+
 let tasks = [...this.state.tasks];
 tasks = tasks.filter(task => task.id !== id)
+
+
 this.setState({
   tasks
 })
 
 
 }
-
+// 6. Changing status, again by using id and this time diffrent method Array.from and then forEach 
 changeTaskStatus = (id) => {
   console.log("change works" + id);
   const tasks = Array.from(this.state.tasks);
@@ -72,6 +83,7 @@ changeTaskStatus = (id) => {
     tasks
   })
 }
+
 addTask = (text,date,important) => {
   // console.log('dodany tekst')
   const task = { 
@@ -99,7 +111,12 @@ addTask = (text,date,important) => {
       <div className="App">
         <h1>TO DO LIST</h1>
         <AddTask add={this.addTask}/>
-        <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/>
+        <TaskList tasks={this.state.tasks}
+        // 3. Sending props (array) further to TaskList
+
+        delete={this.deleteTask} 
+        
+        change={this.changeTaskStatus}/>
       </div>
     )
   }

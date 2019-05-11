@@ -16,6 +16,7 @@ const Task = (props) => {
         - until <span>{date} </span>
         <button onClick= {() => props.change(id)}>Done</button>
         <button onClick={() =>props.delete(id)}>X</button>
+        {/* 5. After adding event listener adding (id) to make sure what is the particular status from the array*/}
         </p>
         </div>
       
