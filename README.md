@@ -2,7 +2,7 @@
 
 About: 
 
-In that project I focused mostly on arrays. Using couple diffrents methods to make new copies of the arrays(map,filter,arrayFrom) and then applay new one through React thanks to setState. Using as well props many times to send files further. And method like slice or just negetion !== to return right array without certain chosen id. Step by step instruction in comments.. 
+In that project I focused mostly on arrays. Using couple difference methods to make new copies of the arrays(map,filter,arrayFrom) and then applay new one through React thanks to setState.As well I used props many times to send files further. And method like slice or just negetion !== to return right array without certain chosen id. Step by step instruction in comments.. 
 
 
 
