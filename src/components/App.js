@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import AddTask from './AddTask'
 import TaskList from './TaskList'
-// 1. Utworzenie plikow importu i exportu w katalogach roboczych
+// 1. Importing files from diffrent directories
 class App extends Component {
 
   counter = 4;
-// 2. Wprowadzenie przykładowych obiektow tablicy
+// 2. Introducing examples 
   state = {
     tasks: [
     {id:0,
