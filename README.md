@@ -1,6 +1,5 @@
 # CREATE REACT APP - TO DO LIST - CASE STUDY
 
-About: 
 
 In that project I focused mostly on arrays. Using couple difference methods to make new copies of the arrays(map,filter,arrayFrom) and then applied new one through React thanks to setState.As well I used props many times to send files further. And method like slice or just negations !== to return right array without certain chosen id. Everything in JSX.
 
